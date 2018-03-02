@@ -34,6 +34,9 @@ const productionConfig = merge([
       splitChunks: {
         chunks: "all",
       },
+      runtimeChunk: {
+        name: "manifest",
+      },
     },
   },
 ]);
