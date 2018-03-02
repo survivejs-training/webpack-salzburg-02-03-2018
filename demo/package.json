@@ -5,8 +5,8 @@
   "description": "Webpack demo for Salzburg workshop",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
+    "build": "webpack --env production",
+    "start": "webpack-dev-server --env development"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "html-webpack-plugin": "^3.0.4",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0"
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
   }
 }
