@@ -24,6 +24,8 @@
 
 ## Examples
 
+### Resolve
+
 ```javascript
 const config = {
   resolve: {
@@ -38,4 +40,10 @@ const config = {
     ],
   },
 };
+```
+
+### Loader
+
+```javascript
+module.exports = input => input + input;
 ```
