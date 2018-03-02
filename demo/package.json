@@ -5,6 +5,7 @@
   "description": "Webpack demo for Salzburg workshop",
   "main": "index.js",
   "scripts": {
+    "build:stats": "webpack --env production --json > stats.json",
     "build": "webpack --env production",
     "start": "webpack-dev-server --env development"
   },
