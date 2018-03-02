@@ -59,3 +59,10 @@ read as
 ```javascript
 styleLoader(cssLoader(input))
 ```
+
+### `oneOf` and `resourceQuery`
+
+```
+import "./bar.png?internal";
+import "./foo.png?external";
+```
