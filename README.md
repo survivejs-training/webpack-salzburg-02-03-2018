@@ -47,3 +47,15 @@ const config = {
 ```javascript
 module.exports = input => input + input;
 ```
+
+### Loader Order
+
+```javascript
+use: ["style-loader", "css-loader"]
+```
+
+read as
+
+```javascript
+styleLoader(cssLoader(input))
+```
