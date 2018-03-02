@@ -1,0 +1,18 @@
+{
+  "name": "webpack-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Webpack demo for Salzburg workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.0.4",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
