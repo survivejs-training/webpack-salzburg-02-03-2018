@@ -29,6 +29,19 @@ const productionConfig = merge([
       name: "[name].[ext]",
     },
   }),
+  {
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          commons: {
+            test: /[\\/]node_modules[\\/]/,
+            name: "vendor",
+            chunks: "all", // Try "initial" too
+          },
+        },
+      },
+    },
+  },
 ]);
 
 const developmentConfig = merge([
