@@ -15,11 +15,11 @@
 ## Goals
 
 * Webpack and Angular - CLI. Check it out.
-* Basics - can it replace RequireJS?
-* Packaging and delivering applications.
+* Basics - can it replace RequireJS? Yes. Look into aliasing! [amd-to-es6](https://www.npmjs.com/package/amd-to-es6), [requirejs-es2015](https://www.npmjs.com/package/requirejs-es2015)?
+* [Packaging and delivering applications.](https://survivejs.com/maintenance/packaging/)
 * create-react-app - check out configuration.
 * Ionic and webpack.
-* Difference compared to Grunt.
+* ~~Difference compared to Grunt.~~
 * Vue and webpack.
 
 ## Examples
